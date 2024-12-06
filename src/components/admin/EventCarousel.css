@@ -1,0 +1,46 @@
+/* EventCarousel.css */
+.slick-arrow {
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-arrow:hover {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Color de fondo más oscuro al pasar el ratón */
+  color: #fff;
+}
+
+.carousel-container {
+  padding: 0 100px; /* Ajusta el padding horizontal según sea necesario */
+}
+
+/* EventCarousel.css */
+.event-card {
+  height: 200px; /* Ajusta según tus necesidades */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

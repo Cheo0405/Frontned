@@ -1,0 +1,38 @@
+.search-icon-jugadores {
+  color: #888;
+}
+
+.search-input-jugadores {
+  padding: 10px;
+  margin-left: 10px;
+  padding-right: 50px;
+  border: 1px solid;
+  width: 250px;
+}
+
+.clear-search-jugadores-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transform: translateY(-37px);
+  margin-left: 250px;
+  cursor: pointer;
+}
+
+.search-bar-jugadores {
+    margin-right: 800px;
+}
+
+.botones-acciones-docentes{
+    margin-right: -800px;
+    margin-top: -120px;
+    margin-bottom: 80px;
+}
+
+.table-docentes-visualizer {
+    margin-top: -100px;
+}

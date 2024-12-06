@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    top: 90px;
+}
+
+.inferior{
+    margin-left: -5000px;
+    margin-right: 500px;
+    width: 100%;
+}
+
+.bg-brown-500 {
+    background-color: #8B4513; /* Puedes ajustar el código de color según tu preferencia */
+}
+
+.icono-clave{
+    margin-left: 10px;
+    color: #DDDDDD;
+}

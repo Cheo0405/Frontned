@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: carrois-gothicSC;
+  src: url(./assets/fuentes/CarroisGothicSC-Regular.ttf);
+}
+
+.carrois-gothicSC {
+  font-family: "Carrois Gothic SC";
+}
+
+@font-face {
+  font-family: carrois-gothic;
+  src: url(./assets/fuentes/CarroisGothic-Regular.ttf);
+}
+
+.carrois-gothic {
+  font-family: "Carrois Gothic";
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(./assets/fuentes/Poppins-Medium.ttf); 
+}
+
+.poppins {
+  font-family: poppins;
+}
+
+/* Estilo para la tabla */
+.outer-wrapper {
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: fit-content;
+  max-height: fit-content;
+
+  border: 1px solid #8C6428;
+  border-radius: 10px;
+}
+
+.table-wrapper {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: fit-content;
+  max-height: 200px;
+  
+  margin-top: 22px;
+  
+  margin: 15px;
+}
+
+/* Filas impares */
+tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Gris claro */
+}
+
+/* Filas pares y celdas en general */
+td, th {
+  border: 1px solid #dddddd; /* Borde gris */
+  padding: 10px;
+  text-align: left;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenedor{
+    margin-top: -80px;
+}
+
+.image-container {
+    background-color: #3f3f46; /* Negro claro con opacidad del 70% */
+    padding: 20px; /* Añadir un poco de espacio alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 400px;
+    height: 285px;
+}
+
+.content-form{
+    background-color: #B58D52;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
